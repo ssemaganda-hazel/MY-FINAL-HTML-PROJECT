@@ -127,5 +127,30 @@ p{
     display: inline-block;
     background-color: transparent;
     font-weight: bold;
+}
+.mission{
+    display: flex;
+    padding: 40px;
 
+}
+.physical{
+    float: left;
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+.our{
+    float: right;
+    width:20px;
+    height: 20px;
+}
+.mine{
+    color: green;
+    display: block;
+    font-size: 30px;
+
+}
+.para{
+    color:darkslategray;
+    font-size: 18px;
 }
