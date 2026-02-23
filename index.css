@@ -1,0 +1,65 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+nav #nav-bar {
+    background-color: whitesmoke;
+    padding: 5px;
+}
+
+.nav {
+    display: flex;
+    color: black;
+}
+
+.nav-one {
+    margin-left: 30px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: green;
+}
+
+.list ul {
+    display: flex;
+    list-style: none;
+    margin-left: 100px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.madam {
+    padding-left: 66px;
+}
+
+.sir {
+    padding-left: 65px;
+}
+
+.baby {
+    padding-left: 64px;
+}
+
+.woman {
+    padding-left: 63px;
+}
+
+.man {
+    padding-left: 62px;
+}
+
+.boy {
+    padding-left: 61px;
+}
+
+.girl {
+    padding-left: 60px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
