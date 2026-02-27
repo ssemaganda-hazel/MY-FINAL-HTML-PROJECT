@@ -64,30 +64,38 @@ a {
     text-decoration: none;
     color: black;
 }
-.sect{
-    position: relative;
+
+.sect {
     display: flex;
     align-items: center;
-    background-size: cover;
-    color: white;
     overflow: hidden;
-    background-position: center;
     min-height: 600px;
     height: 80vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('fruits.jpeg');
+  background-size: cover; 
+  background-position: center;
+  height: 400px; 
+  color: white; 
+  position: relative;
 }
+
+
 .natural {
     padding-left: 30px;
-    padding-right: 30px; ;
-    margin-right: 20px;
+    padding-right: 30px;
+    ;
+    margin-right: 20px; 
     margin-left: 20px;
     margin-top: 0px;
 }
-h1{
+
+h1 {
     font-size: 56px;
     display: block;
     margin-bottom: 20px;
 }
-p{
+
+p {
     font-size: 30px;
     margin-bottom: 30px;
     display: block;
@@ -95,26 +103,28 @@ p{
     margin-block-start: 26px;
     margin-block-end: 26px;
 }
-.learn{
-     background-color: green;
-     color: white;
-     border-radius: 30px;
-     padding-top:10px ;
-     padding-bottom: 10px;
-     padding-left: 25px;
-     padding-right: 25px;
-     border-top-color: green;
-     border-bottom-color: green;
-     border-right-color:green ;
-     border-left-color: green;
-     font-weight: bold;
+
+.learn {
+    background-color: green;
+    color: white;
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-top-color: green;
+    border-bottom-color: green;
+    border-right-color: green;
+    border-left-color: green;
+    font-weight: bold;
 }
-.contact{
+
+.contact {
     border-top-width: 2px;
     border-bottom-width: 2px;
     border-right-width: 2px;
     border-left-width: 2px;
-    border-top-color:green;
+    border-top-color: green;
     border-bottom-color: green;
     border-left-color: green;
     border-right-color: green;
@@ -128,29 +138,34 @@ p{
     background-color: transparent;
     font-weight: bold;
 }
-.mission{
+
+.mission {
     display: flex;
     padding: 40px;
 
 }
-.physical{
+
+.physical {
     float: left;
     width: 20px;
     height: 20px;
     display: block;
 }
-.our{
+
+.our {
     float: right;
-    width:20px;
+    width: 20px;
     height: 20px;
 }
-.mine{
+
+.mine {
     color: green;
     display: block;
     font-size: 30px;
 
 }
-.para{
-    color:darkslategray;
+
+.para {
+    color: darkslategray;
     font-size: 18px;
 }
